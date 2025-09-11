@@ -1,0 +1,65 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Xcode
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+*.xcuserstate
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+*.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved
+
+# CocoaPods (uncomment if you use Pods)
+# Pods/
+# Podfile.lock
+
+# Carthage (uncomment if you use Carthage)
+# Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Coverage / Instruments
+*.xccoverage
+*.profdata
+
+# Archives / Symbols
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Simulator logs
+*.simdevicelog
+
+# Editors/IDE
+.vscode/
+.idea/
+
+# SwiftLint cache
+.swiftlint.cache
